@@ -11,6 +11,24 @@
 
 <body class="body__products">
 
+    <div class="navigation">
+        <div class="navigation__list navigation__list--bg">
+            <div class="navigation__item navigation__item--bg icon-photo"></div>
+            <div class="navigation__box navigation__box--bg icon-close">
+                Фон раздела товаров не содержит картинку - это просто однотонный цвет, в нашем случае - черный. Дело в том, что на фоне картинки плохо смотрятся фотографии товаров или услуг. В случае, если список из 10-20 и более товаров будет уходить вниз, картинку в качестве фона размесщать не стоит.
+            </div>
+        </div>
+        <div class="navigation__list navigation__list--prodlist">
+            <div class="navigation__item navigation__item--prodlist icon-view-tile"></div>
+            <div class="navigation__box navigation__box--prodlist icon-close">Товаров или услуг может быть много - больше размещенных 6 на этой странице. В рамках фиксированной стоимости сайта я подготавливаю и размещаю до 12 карточек товаров/услуг. Более значительное количество оплачивается дополнительно. 
+            </div>
+        </div>
+        <div class="navigation__list navigation__list--cart">
+            <div class="navigation__item navigation__item--cart icon-inbox-full"></div>
+            <div class="navigation__box navigation__box--cart icon-close">Превью, то есть предварительная карточка товара, содержит фотографию, заголовок и краткое описание. Фото товара или услуги нужны от вас, но если их нет, мы можем их подобрать самостоятельно. При наведении на карточку - она визуально выделяется в списке. При нажатии на карточку - вы перейдете на страницу товара или услуги. 
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="container">
             <div class="header__inner">
@@ -66,7 +84,7 @@
                         При клике пользователь попадет на страницу товара или услуги.
                     </div>
                 </a>
-                <a class="products__item" href="product.html">
+                <a class="products__item products__item--3" href="product.html">
                     <img src="images/prod3.jpg" alt="" class="products__img">
                     <div class="products__title">
                         НАЗВАНИЕ ТОВАРА ИЛИ УСЛУГИ
